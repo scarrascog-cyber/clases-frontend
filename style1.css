@@ -1,0 +1,50 @@
+*los div con borde visible */
+div{
+    border: 2px solid black;
+}
+
+/* rectangulo principal padre */
+#principal{
+    width: 100px;
+    margin: 50px auto;
+    padding: 20px;
+   
+}
+
+/* rectangulo secundario interno */
+#centro{
+    padding: 20px;
+    
+}
+
+/* cuadros hijos */
+#foto{
+    width: 20%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#nombre{
+    width: 40%;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+#info{
+    width: 20%;
+    display: inline-block;
+    margin: 10px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+/* imagen redonda */
+#foto img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
