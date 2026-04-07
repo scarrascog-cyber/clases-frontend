@@ -1,20 +1,20 @@
-*los div con borde visible */
+/*los div con borde visible */
 div{
-    border: 2px solid black;
+  border: 2px solid color black
 }
 
 /* rectangulo principal padre */
 #principal{
-    width: 100px;
+    width: 50%;
     margin: 50px auto;
     padding: 20px;
-   
+    border: 20px color rgb(117, 113, 113)
 }
 
 /* rectangulo secundario interno */
 #centro{
     padding: 20px;
-    
+     border: 2px solid black
 }
 
 /* cuadros hijos */
@@ -39,6 +39,8 @@ div{
     margin: 10px;
     text-align: right;
     vertical-align: middle;
+    border-right:dotted;
+    border-right: 2px;
 }
 
 /* imagen redonda */
