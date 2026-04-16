@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+}
+div{
+    border-style: solid;
+}
+.general {
+ text-align: center;
+ padding-left: 10%;
+ padding-right: 10%;
+ padding-top: 2%;
+}
+.h1{
+    padding-right: 30%;
+    padding-left: 30%;
+    text-align: center;
+}
+.lupa{
+    text-align: center;
+}
+.logo{
+    width: 30%;
+    display: inline-block;
+}
+.links{
+    width: 35%;
+    display: inline-block;
+}
+.links a{
+    margin-left: 10px;
+
+}
+.otros{
+    width: 30%;
+    display: inline-block;
+}
+.buscador{
+  width: 80%;
+  display: inline-block;
+  
+}
+.categorias{
+ width: 15%;
+ display: inline-block;
+}
+.card{
+    display: inline-block;
+    width: 15%;
+    border-radius: 5%;
+}
+.banner{
+    width: 68%;
+    border-radius: 5px;
+}
+.conteneder{
+    padding: 10px;
+}
+.cards{
+    padding: 5px;
+}
+.fila1,.fila2{
+    padding: 2px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+}
